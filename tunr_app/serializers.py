@@ -13,5 +13,5 @@ class ArtistSerializer(serializers.ModelSerializer):
     songs = SongSerializer(many=True, read_only=True)
 
     class Meta:
-        model: Artist
-        fields: ('id', 'name', 'photo_url', 'nationality', 'songs')
+        model = Artist
+        fields = ('id', 'name', 'photo_url', 'nationality', 'songs')

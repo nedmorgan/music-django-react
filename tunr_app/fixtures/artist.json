@@ -1,0 +1,19 @@
+[{
+        "model": "tunr_app.artist",
+        "pk": 2,
+        "fields": {
+            "name": "John Lennon",
+            "nationality": "UK",
+            "photo_url": "http://www.placecage.com/g/200/300"
+        }
+    },
+    {
+        "model": "tunr_app.artist",
+        "pk": 3,
+        "fields": {
+            "name": "John Legend",
+            "nationality": "American",
+            "photo_url": "http://www.placecage.com/g/200/300"
+        }
+    }
+]
